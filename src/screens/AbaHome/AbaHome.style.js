@@ -1,15 +1,16 @@
 import { StyleSheet } from "react-native";
-import { COLORS } from "../../constants/typography";
+import { COLORS, FONT_SIZE } from "../../constants/typography";
 
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: COLORS.white,
+    backgroundColor: COLORS.black,
     justifyContent: "center",
     padding:12,
   },
   texto:{
-    fontSize: 20,
-    color: "white"
+    fontSize: FONT_SIZE.md,
+    color: COLORS.gray5,
+    textAlign:'center',
   }
 })
